@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:text="昵称"/>
+        <TextView
+            android:id="@+id/personalinfo_shown_name"
+            android:layout_height="wrap_content"
+            android:textSize="40sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:text="性别"/>
+        <TextView
+            android:id="@+id/personalinfo_shown_gender"
+            android:layout_height="wrap_content"
+            android:textSize="40sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:text="年龄"/>
+        <TextView
+            android:id="@+id/personalinfo_shown_age"
+            android:layout_height="wrap_content"
+            android:textSize="40sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="生日"/>
+        <TextView
+        android:id="@+id/personalinfo_shown_birth"
+        android:layout_height="wrap_content"
+        android:textSize="40sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="星座"/>
+        <TextView
+        android:id="@+id/personalinfo_shown_constellation"
+        android:layout_height="wrap_content"
+        android:textSize="40sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:text="故乡"/>
+        <TextView
+            android:id="@+id/personalinfo_shown_hometown"
+            android:layout_height="wrap_content"
+            android:textSize="40sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:text="邮箱"/>
+        <TextView
+            android:id="@+id/personalinfo_shown_email"
+            android:layout_height="wrap_content"
+            android:textSize="40sp" />
+    </TableRow>
+
+
+
+</TableLayout>
